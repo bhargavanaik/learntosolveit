@@ -4,15 +4,11 @@
 
 /* print Fahrenheit-Celsius table for fahr = 0,20 ... 300 */
 
-int main()
+void main()
 {
 	printf("A program print Fahrenheit-Celsius\n");
 	int lower,upper,step;
-	int celsius,fahr;
-
-	lower = 0;
-	upper = 300;
-	step = 20;
+	int celsius,fahr,lower = 0,upper = 300,step = 20;
 
 	fahr = lower;
 
@@ -23,5 +19,4 @@ int main()
 		fahr = fahr + step;
 	}
 
-	return 0;
 }
